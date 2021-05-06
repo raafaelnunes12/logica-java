@@ -5,10 +5,13 @@ e depois mostra a media dos valores.
 
 public class CalculaMediaAritimetica {
     public static void main (String[] args){
+        System.out.println("Digite o primeiro valor");
         double primeiroNumero = 3;
-        double segundoNumero = 6;
-        double resultado;
 
+        System.out.println("Digite o segundo valor");
+        double segundoNumero = 6;
+
+        double resultado;
         resultado = (primeiroNumero + segundoNumero)/2;
 
         System.out.println(resultado);
