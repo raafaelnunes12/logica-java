@@ -16,8 +16,21 @@ public class CalculoImc {
 
         double imc = peso / (altura * altura);
 
-        System.out.println(nome + " seu imc é de: " + imc);
-
+        if (imc < 18.5) {
+            System.out.println(nome + " seu nível é: Magreza: " + imc);
+        }
+        if (imc > 18.6 && imc < 24.9){
+            System.out.println(nome + " seu nível é: Normal " + imc);
+        }
+        if (imc > 25 && imc < 29.9){
+            System.out.println(nome + " seu nível é: Sobrepeso " + imc);
+        }
+        if (imc > 30 && imc < 39.9){
+            System.out.println(nome + " seu nível é: Obesidade " + imc);
+        }
+        if (imc > 40) {
+            System.out.println(nome + " seu nível é: Obesidade Grave" + imc);
+        }
         scanner.close();
     }
 }
