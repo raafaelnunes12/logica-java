@@ -9,6 +9,17 @@ public class CalculaAreaTrapezio {
             area = (b + B) / 2.0 * h;
 
             System.out.println(area);
+
+            /*
+            VARIAVEIS TIPO FLOAT
+
+            float b, h, B, area;
+            h = 5f;
+            b = 6f;
+            B = 8f;
+
+            area = (b + B) / 2f * h;
+             */
         }
     }
 
