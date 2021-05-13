@@ -19,7 +19,7 @@ public class Ex1002 {
 
         double area = n * (raio*raio);
 
-        System.out.printf ("A= %.4f", area);
+        System.out.printf ("A=%.4f", area);
 
         scanner.close();
     }
