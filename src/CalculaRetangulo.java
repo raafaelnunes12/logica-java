@@ -17,11 +17,11 @@ public class CalculaRetangulo {
         double perimetro = (2 * base) + (2 * altura);
         double diagonal = Math.sqrt((base * base)+(altura * altura));
 
-        System.out.printf("--------------------------%n");
+        System.out.println("--------------------------");
         System.out.printf("Área: %.4f%n", area);
         System.out.printf("Perimetro: %.4f%n", perimetro);
         System.out.printf("Diagonal: %.4f%n", diagonal);
-        System.out.printf("--------------------------");
+        System.out.println("--------------------------");
 
         scanner.close();
     }
